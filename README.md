@@ -4,7 +4,7 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![](images/screenshot.jpg)
+![](./images/screenshot.jpeg)
 
 ### Links
 
@@ -25,7 +25,7 @@ I used the design and mocked the sections out on paper so it was easy to break i
 ### What I learned
 
 I learned how to center an item vertically and horizontally using absolute positioning.
-I used mobile first design approach and used media queries to make the display larger of bigger screen sizes.
+I used mobile first design approach and used media queries to make the display larger on bigger screen sizes.
 
 ### Continued development
 
@@ -38,5 +38,5 @@ I want to continue exploring more complex design challenges.
 
 ## Acknowledgments
 
-I used Google extensively to leran more about positioning elements using css. 
+I used Google extensively to learn more about positioning elements using css. 
 
