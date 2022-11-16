@@ -4,44 +4,32 @@
     padding: 0;
     box-sizing: border-box;
 }
-html {
-    font-size: 100%;
-}
 body {
     font-family: 'Outfit', serif;
     background-color: hsl(212, 45%, 89%);
-    width: 100vw;
-    height: 100vh ;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+main {
+    padding-inline: 1.5rem;
 }
 .card {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 15rem;
+    width: 100%;
+    max-width: 22rem;
+    padding: 1rem;
     background-color: hsl(0,0%, 100%);
     border-radius: 1.2rem;
 }
 .card img {
-    max-width: 14rem;
-    height: auto;
+    width: 100%;
     border-radius: 1.2rem;
-    margin: 1.5rem;
+    height:auto;
 }
-.info {
-    max-width: 14rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-.info h2 {
+.info h1 {
     padding: 0 0.5rem;
     color: hsl(218, 44%, 22%);
+    text-align: center;
 }
 .info p {
     font-size: 14px;
@@ -50,47 +38,10 @@ body {
     margin: 1rem 0;
     text-align: center;
 }
-.attribution { 
-    position: absolute;
-    /* top: 90%;*/
-    left: 50%; 
-    bottom: 5%;
-    /* text-align: center; */
-    transform: translate(-50%, -50%); 
-    font-size: 11px;   
+footer{
+    padding-top: 1rem;
+    text-align: center;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
-}
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    .card {
-        max-width: 20rem;
-    }
-    .card img {
-        max-width: 18rem;
-    }
-    .info {
-        max-width: 20rem;
-    }
-}
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    html {
-        font-size:110%;
-      }
-    .card {
-        max-width: 22rem;
-    }
-    .card img {
-        max-width: 20rem;
-    }
-    .info {
-        max-width: 22rem;
-    }
-    /* .attribution { 
-        top: 98%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    } */
 }
